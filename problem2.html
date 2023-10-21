@@ -25,31 +25,36 @@
 	<button onclick="resetForm()">RESET FORM</button>
 	<button onclick="resetDisplay()">RESET DISPLAY</button>
 	<script type="text/javascript">
-		function showName() {
+		function showName() 
+        {
 			var name = document.getElementById("name").value;
             document.getElementById("dName").innerText = name;
 		}
 
-		function showGender() {
+		function showGender() 
+        {
 			var gender = document.getElementById("gender").value;
             document.getElementById("dGender").innerText = gender;
 		}
 
-		function showEmail() {
+		function showEmail() 
+        {
 			var email = document.getElementById("email").value;
             document.getElementById("dEmail").innerText = email;
 		}
 
-		function showMobile() {
+		function showMobile() 
+        {
 			var mobile = document.getElementById("mobile").value;
             document.getElementById("dMobile").innerText = mobile
 		}
 
-		function resetForm() {
-			document.getElementById("name").value = "";
-            document.getElementById("gender").value = "";
-            document.getElementById("email").value = "";
-            document.getElementById("mobile").value = "";
+		function resetForm() 
+            {
+			    document.getElementById("name").value = "";
+                document.getElementById("gender").value = "";
+                document.getElementById("email").value = "";
+                document.getElementById("mobile").value = "";
 		}
 
 		function resetDisplay() 
